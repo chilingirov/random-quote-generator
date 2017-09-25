@@ -1,7 +1,7 @@
 function randomQuote() {
 
     $.ajax({
-        url: "http://api.giphy.com/v1/gifs/random?api_key=1SPxjTceVrzEl44goX8NK3LGFljXPDQt&callback=?",
+        url: "https://api.giphy.com/v1/gifs/random?api_key=1SPxjTceVrzEl44goX8NK3LGFljXPDQt&callback=?",
         dataType: "jsonp",
         success: function(data) {
             $(".right-gif").html("<img src=" + data.data.fixed_height_downsampled_url + " >")
