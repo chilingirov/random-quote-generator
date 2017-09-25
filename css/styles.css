@@ -127,3 +127,21 @@
             margin-right: auto;
         }
     }
+    
+    footer {
+        text-align: center;
+        position: bottom;
+        color: white;
+        margin-top: 50%;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+    }
+    
+    footer p {
+        font-family: 'Comfortaa', cursive;
+    }
