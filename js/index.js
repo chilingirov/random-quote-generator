@@ -12,6 +12,7 @@ function randomQuote() {
         dataType: "jsonp",
         data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
         success: function(response) {
+            document.querySelector(".left-quote").style.display = "block"
             $(".left-quote").html("<h2 id='random_quote' class='lead text-center'>" +
                 response.quoteText + "<br/>&dash; " + response.quoteAuthor + ' &dash;</h2>' + '<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=' + response.quoteText + '-' + response.quoteAuthor + '-' + '"' + ' >Tweet</a>');
         }
