@@ -49,11 +49,12 @@
     }
     
     #quote {
+        height: 300px;
         margin-top: 100px;
-        background-color: white;
         color: #1DA1F2;
         border-radius: 10px;
         padding: 30px 10px;
+        background-color: white
     }
     
     .twitter-share-button {
@@ -84,4 +85,31 @@
         #quote {
             margin-top: 50px;
         }
+    }
+    
+    .left-quote {
+        height: 100%;
+        width: 60%;
+        float: left;
+        padding: 20px;
+        border-radius: 10px;
+        vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .right-gif {
+        height: 100%;
+        float: right;
+        width: 40%;
+    }
+    
+    img {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    h2 {
+        vertical-align: middle;
     }
