@@ -1,147 +1,146 @@
-    * {
-        box-sizing: border-box;
-        padding: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+.container {
+    width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 52px;
+}
+
+h1 {
+    display: inline;
+}
+
+input {
+    display: inline;
+    margin-left: 30px;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 5px;
+    color: #1DA1F2;
+    background-color: white;
+    font-family: "helvetica neue", arial;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#quote {
+    margin-top: 100px;
+}
+
+.twitter-share-button {
+    position: relative;
+    background-color: #1DA1F2;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: "helvetica neue", arial;
+    margin-top: 20px;
+    padding: 6px 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left-quote {
+    display: none;
+    height: 100%;
+    width: 60%;
+    float: left;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+}
+
+.right-gif {
+    height: 100%;
+    float: right;
+    width: 40%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+@media screen and (max-width:960px) {
+    header {
+        display: block;
+        margin-top: 50px;
     }
-    
-    body {
-        background-color: #1DA1F2;
-        color: white;
-    }
-    
-    h1 {
-        color: white;
-        font-family: 'Comfortaa', cursive;
-        font-weight: 700;
-        font-size: 2.5rem;
-        vertical-align: middle;
-    }
-    
-    .container {
-        width: 80%;
+    input {
+        margin-top: 30px;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        margin-left: 0px;
     }
-    
-    header {
-        position: relative;
-        margin-top: 100px;
-        text-align: center;
-        max-width: 100%;
-        line-height: 52px;
-    }
-    
-    h1 {
-        display: inline;
-    }
-    
-    input {
-        display: inline;
-        margin-left: 30px;
-        padding: 8px 35px;
-        border: none;
-        border-radius: 5px;
-        color: #1DA1F2;
-        background-color: white;
-        font-family: "helvetica neue", arial;
-        font-weight: bold;
-        vertical-align: middle;
-    }
-    
     #quote {
-        margin-top: 100px;
+        margin-top: 50px;
+        height: 100%;
     }
-    
-    .twitter-share-button {
-        position: relative;
-        background-color: #1DA1F2;
-        border-radius: 100px;
-        font-size: 14px;
-        font-family: "helvetica neue", arial;
-        margin-top: 20px;
-        padding: 6px 16px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    
     .left-quote {
-        display: none;
-        height: 100%;
-        width: 60%;
-        float: left;
-        padding: 20px;
-        border-radius: 10px;
-        vertical-align: middle;
-        margin-top: auto;
-        margin-bottom: auto;
         background-color: white;
+        width: 100%;
+        margin-bottom: 20px;
     }
-    
     .right-gif {
-        height: 100%;
-        float: right;
-        width: 40%;
+        width: 100%;
     }
-    
-    img {
-        width: 300px;
-        height: 200px;
+    #quote {
+        background-color: none;
     }
-    
-    h2 {
-        vertical-align: middle;
-    }
-    
-    @media screen and (max-width:960px) {
-        header {
-            display: block;
-            margin-top: 50px;
-        }
-        input {
-            margin-top: 30px;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-left: 0px;
-        }
-        #quote {
-            margin-top: 50px;
-            height: 100%;
-        }
-        .left-quote {
-            display: block;
-            background-color: white;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .right-gif {
-            display: block;
-            width: 100%;
-        }
-        #quote {
-            background-color: none;
-        }
-        img {
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    
-    footer {
-        text-align: center;
-        position: bottom;
-        color: white;
-        margin-top: 50%;
-    }
-    
-    footer a {
-        text-decoration: none;
-        color: white;
-        font-family: 'Comfortaa', cursive;
-        font-weight: 700;
-    }
-    
-    footer p {
-        font-family: 'Comfortaa', cursive;
-    }
+    /* img {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
+
+footer {
+    text-align: center;
+    position: bottom;
+    color: white;
+    margin-top: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: 'Comfortaa', cursive;
+}
